@@ -3,6 +3,10 @@
 	font-family: Anna;
 	src: url(02136_Anna.ttf) format(trutype);
 }
+@font-face {
+	font-family: plaza;
+	src: url(29849_PlazaITC-Normal)format(trutype);
+}
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
@@ -1878,7 +1882,13 @@ h1, h2{
 		}
 
 /* Button */
-
+#button{
+	font-family: plaza;
+	font-weight: lighter;
+}
+ul#button{
+	font-size: 2.3em;
+}
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
