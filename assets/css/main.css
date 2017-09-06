@@ -1882,10 +1882,6 @@ h1, h2{
 		}
 
 /* Button */
-#button{
-	font-family: plaza;
-	font-weight: lighter;
-}
 ul#button{
 	font-size: 2.3em;
 }
@@ -3344,7 +3340,7 @@ font-family: sans-serif;
 
 			}
 
-		.wrapper.fade-up > .inner {
+		.wrapper.fade-up > .inner > ul {
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
