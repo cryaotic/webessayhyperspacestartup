@@ -2904,7 +2904,9 @@ font-family: sans-serif;
 		}
 
 /* Section/Article */
-
+section#two{
+	line-height: 1.75em;
+}
 	section.special, article.special {
 		text-align: center;
 	}
